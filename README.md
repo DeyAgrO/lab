@@ -2,7 +2,7 @@
 Basic Tools For Sircles
 
 I want the student to 
-- Create A directory called `exam` in the home directory and has txt folder and mp3 folder and mp4 folder
+- Create A directory called `exam` in the home directory and has `txt` folder and `mp3` folder and `mp4` folder inside it
 - then `tail the last 7 lines` and `head` a file called `days.txt` containing numbers and weekdays to `tail.txt` and `head.txt` files inside the `/home/$USER/exam/txt` directory
 - then `echo` the `$HOME` and `$PATH` to `/home/$USER/exam/txt/env.txt`
 - then create and edit file called `/home/$USER/exam/txt/whoami.txt` that contain 

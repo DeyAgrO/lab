@@ -1,6 +1,6 @@
 Training Project For Sircles
 
-#### course101
+## course101
 
 1. **Exercise 1**
 	Create a folder called `exam` in the home directory and create 3 folders inside it `txt` `mp3` `mp4`
@@ -43,7 +43,7 @@ email: <XXXXX@XXXXX.XXXX>
 	And the alias must stay persistent after reboot
 
 
-#### course102
+## course102
 
 1. **Exercise 1**
 	Check all the sleep processes that are running in the background deactivate them all
@@ -58,7 +58,7 @@ email: <XXXXX@XXXXX.XXXX>
 	and generate the second one called `sorintKey`
 
 
-#### course103
+## course103
 
 1. **Exercise 1**
 	There is a need to set the hostname to `alma9.sorint.exam.com`

@@ -13,13 +13,17 @@ sudo dnf install vim-enhanced firewalld net-tools qemu-guest-agent openssh-serve
 pip install psutil
 pip install termcolor
 
+# Remove SSH host keys
+sudo rm -rf /etc/ssh/ssh_host_*
+
 # Disable SELinux
 sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
 
 echo "Packages installed successfully!"
 echo "SELinux has been disabled."
+echo "Keys Has been removed."
 
 # Reboot the system
-echo "Powering Off the system in 20 seconds..."
+echo "Power Off the system in 20 seconds..."
 sleep 20
 sudo poweroff

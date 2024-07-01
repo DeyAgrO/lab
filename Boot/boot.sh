@@ -7,15 +7,23 @@ sudo dnf update -y
 sudo dnf upgrade -y
 
 # Install the packages
-sudo dnf install vim-enhanced firewalld net-tools qemu-guest-agent openssh-server git curl wget -y
+sudo dnf install vim-enhanced firewalld net-tools qemu-guest-agent openssh-server git curl wget python3 pip -y
+
+# install needed python Models
+pip install psutil
+pip install termcolor
+
+# Remove SSH host keys
+sudo rm -rf /etc/ssh/ssh_host_*
 
 # Disable SELinux
 sudo sed -i 's/^SELINUX=.*/SELINUX=disabled/' /etc/selinux/config
 
 echo "Packages installed successfully!"
 echo "SELinux has been disabled."
+echo "Keys Has been removed."
 
 # Reboot the system
-echo "Rebooting the system in 20 seconds..."
+echo "Power Off the system in 20 seconds..."
 sleep 20
-sudo reboot
+sudo poweroff

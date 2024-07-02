@@ -1,6 +1,6 @@
 Training Project For Sircles
 
-## course101
+## sorint start course101
 
 1. **Exercise 1**
 	Create a folder called `exam` in the home directory and create 3 folders inside it `txt` `mp3` `mp4`
@@ -42,8 +42,10 @@ email: <XXXXX@XXXXX.XXXX>
 	Create the alias `ipa="ip --color a"`
 	And the alias must stay persistent after reboot
 
+### sorint grade course101
 
-## course102
+
+## sorint start course102
 
 1. **Exercise 1**
 	Check all the sleep processes that are running in the background deactivate them all
@@ -56,9 +58,10 @@ email: <XXXXX@XXXXX.XXXX>
 4. **Exercise 4**
 	For this exercise you need to generate two ssh keys one normal  and use it to ssh to the second machine we created before, and also to ssh to the remote host without using the password 
 	and generate the second one called `sorintKey`
+### sorint grade course102
 
 
-## course103
+## sorint start course103
 
 1. **Exercise 1**
 	There is a need to set the hostname to `alma9.sorint.exam.com`
@@ -95,3 +98,5 @@ and then check if you can download `librewolf` package
 	We have to `find` all the files that contains the word `sorint` in their names and redirect the output to the file `/home/sorint/exam/txt/sorint.txt`
 9. **Exercise 9**
 	We have to allow all the users in the group `sorint` to use the `sudo` privilege without using the password
+ 
+### sorint grade course103

@@ -81,6 +81,7 @@ email: <XXXXX@XXXXX.XXXX>
 6. **Exercise 6**
 	Add the `librewolf` Browser Repo to your system using these info:
 	It should be `enabled` and `GPG` check is active
+
 ```java
 name: LibreWolf
 
@@ -89,14 +90,15 @@ baseurl: https://rpm.librewolf.net
 gpgkey: https://rpm.librewolf.net/pubkey.gpg#
 ```
 and then check if you can download `librewolf` package
+
 7. **Exercise 7**
 	Create the folder `/external` and mount the disk `/dev/sdb` to it
 	The folder `/external` should be owned by the user and the group `sorint`
-8. **Exercise 8**
+9. **Exercise 8**
 	You have a folder called `random-d3` in the home directory
 	We have to `find` all the files end with `.txt` extensions and redirect the output to the file `/home/sorint/exam/txt/texts.txt`
 	We have to `find` all the files that contains the word `sorint` in their names and redirect the output to the file `/home/sorint/exam/txt/sorint.txt`
-9. **Exercise 9**
+10. **Exercise 9**
 	We have to allow all the users in the group `sorint` to use the `sudo` privilege without using the password
  
 ### sorint grade course103

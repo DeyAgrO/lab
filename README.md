@@ -17,9 +17,9 @@ email: <XXXXX@XXXXX.XXXX>
 ```
 5. **Exercise 5**
 	Inside the folder `/home/sorint/random` there are plenty of random files
-	Move all `.mp4` files to `/home/sorint/exam/mp4/` directory *that you have created before*
-	Move all `.mp3` files to `/home/sorint/exam/mp3/` directory *that you have created before*
-	Delete all `.wav` files from the `/home/sorint/random` directory
+	- Move all `.mp4` files to `/home/sorint/exam/mp4/` directory *that you have created before*
+	- Move all `.mp3` files to `/home/sorint/exam/mp3/` directory *that you have created before*
+	- Delete all `.wav` files from the `/home/sorint/random` directory
 6. **Exercise 6**
 	Check the content of the file `/home/sorint/code.txt` for the code `ansible-api-token=XXXXXXXXXXX` copy the code `XXXXXXXXX` to the file `/home/sorint/exam/txt/token.txt`
 7. **Exercise 7**
@@ -36,7 +36,7 @@ email: <XXXXX@XXXXX.XXXX>
 	Append (*add*) the user `tester1` to the group `testers`
 10. **Exercise 10**
 	Create the directory `/partage` 
-	Change the ownership of the directory to user `tseter1` and the group `sorint` using the `chown` command `tester1:sorint`
+	Change the ownership of the directory to user `tester1` and the group `sorint` using the `chown` command `tester1:sorint`
 	Create symbolic link for the folder `/partage` to the folder `/tmp/shared`
 11. **Exercise 11**
 	Create the alias `ipa="ip --color a"`

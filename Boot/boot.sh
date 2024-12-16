@@ -7,7 +7,7 @@ sudo dnf update -y
 sudo dnf upgrade -y
 
 # Install the packages
-sudo dnf install vim-enhanced firewalld net-tools qemu-guest-agent openssh-server git curl wget python3 pip nano openssh-client -y
+sudo dnf install vim-enhanced firewalld net-tools qemu-guest-agent openssh-server git curl wget python3 python3-pip nano openssh-client -y
 
 # install needed python Models
 pip install psutil
